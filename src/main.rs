@@ -18,16 +18,16 @@ struct Article {
 fn main() {
     let article: Article = Article {
 	article: String::from("how to work with json in Rust"),
-	author: String::from("tdep"),
+	author: String::from("akhil"),
 	paragraph: vec![
 	    Paragraph {
-		name: String::from("untyped")
+		name: String::from("first sentence")
 	    },
 	    Paragraph {
-		name: String::from("strongly typed")
+		name: String::from("body of the article")
 	    },
 	    Paragraph {
-		name: String::from("writing json")
+		name: String::from("end of paragraph")
 	    }
 	]
     };
